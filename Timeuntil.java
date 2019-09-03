@@ -24,6 +24,10 @@ public class Timeuntil
         int md = nm - m;
         int sd = ns - s;
 
+        if (d < 0)
+        {
+            d += 24;
+        }
         if (md < 0)
         {
             d -= 1;

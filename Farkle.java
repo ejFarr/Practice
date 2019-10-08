@@ -27,5 +27,22 @@ public class Farkle
             player1 = user2;
             player2 = user1;
         }
+        for (score1 = 0, score2 = 0; score1 < 10000 && score2 < 10000;)
+        {
+            String stopString = "";
+            boolean hotDice = false;
+            boolean farkel = false;
+            boolean threeKind = false;
+            int d1 = 0;
+            int d2 = 0;
+            int d3 = 0;
+            int d4 = 0;
+            int d5 = 0;
+            int d6 = 0;
+            for (stopString = ""; )
+            {
+
+            }
+        }
     }
 }
